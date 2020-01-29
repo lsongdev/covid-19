@@ -1,0 +1,42 @@
+.news-list.timeline {
+  li {
+    margin-top: 50px;
+    margin-left: 30px;
+    &:before {
+      width: 5px;
+      height: 5px;
+      border: 3px solid #aae;
+      border-radius: 10px;
+      background-color: #2834b9;
+      left: -30px;
+      top: -25px;
+      z-index: 1;
+      content: '';
+      position: absolute;
+    }
+    &:after {
+      width: 1px;
+      top: -20px;
+      left: -26px;
+      bottom: -30px;
+      border-right: 2px solid #ccc;
+      content: '';
+      position: absolute;
+    }
+    &:last-child::after {
+      display: none;
+    }
+    time, a {
+      top: -30px;
+      color: #666;
+      font-size: 14px;
+      position: absolute;
+    }
+    time {
+      left: 0;
+    }
+    a {
+      left: 60px;
+    }
+  }
+}

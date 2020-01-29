@@ -1,7 +1,232 @@
-body {
-  background-color: #fefefe;
+header {
+  color: #fff;
+  padding: 1rem;
+  background-image: url(//lsong.org/2019-ncov/dist/img/coronavirus.png);
+  background-size: 100%;
+  background-position: 50%;
+  background-color: #777;
 }
-
+.overview {
+  padding: 0;
+  display: -webkit-box;
+  display: flex;
+}
+  .overview li {
+    -webkit-box-flex: 1;
+            flex: 1;
+    list-style: none;
+    text-align: center;
+  }
+  .overview li em {
+      display: block;
+      text-align: center;
+      font-size: 22px;
+    }
+  .overview li:nth-child(1) em {
+      color: #E25D4F;
+    }
+  .overview li:nth-child(2) em {
+      color: #F99817;
+    }
+  .overview li:nth-child(3) em {
+      color: #77B634;
+    }
+  .overview li:nth-child(4) em {
+      color: #8D8FAA;
+    }
 .area-detail {
   width: 100%;
+  max-width: 100vw;
+  text-align: center;
+  overflow: scroll;
+}
+  .area-detail th:nth-child(1) {
+    background: #B5D2EE;
+    color: #234D75;
+  }
+  .area-detail th:nth-child(2) {
+    background: #F99817;
+    color: #fc0;
+  }
+  .area-detail th:nth-child(3) {
+    background: #E98081;
+    color: #871213;
+  }
+  .area-detail th:nth-child(4) {
+    background: #99CB75;
+    color: #3A630F;
+  }
+  .area-detail th:nth-child(5) {
+    background: #ACADB8;
+    color: #474A53;
+  }
+  .area-detail td {
+    padding: 5px 10px;
+    background-color: #f1f2f3;
+  }
+  .area-detail .province td:first-child {
+      min-width: 30px;
+      cursor: pointer;
+      position: relative
+    }
+  .area-detail .province td:first-child:before {
+        top: 50%;
+        left: 10px;
+        content: '';
+        display: block;
+        position: absolute;
+        -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+        -webkit-transition: ease-in-out all 300ms;
+        transition: ease-in-out all 300ms;
+        border-style: solid;
+        border-width: 6px 0 6px 6px;
+        border-color: transparent transparent transparent #2834b9;
+      }
+  .area-detail .province.active>td:before {
+      -webkit-transform: translateY(-50%) rotate(90deg);
+              transform: translateY(-50%) rotate(90deg);
+    }
+  .area-detail .province-cities td {
+      background-color: #fff;
+    }
+.button {
+  cursor: pointer;
+  opacity: .75;
+  outline: 0;
+  color: #fff;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  display: block;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  font-size: 16px;
+  padding: 10px;
+  background-color: #2834b9;
+  -webkit-transition: ease-in-out all 100ms;
+  transition: ease-in-out all 100ms
+}
+.button:hover {
+    opacity: 1;
+  }
+.news-list.timeline li {
+    margin-top: 50px;
+    margin-left: 30px
+  }
+  .news-list.timeline li:before {
+      width: 5px;
+      height: 5px;
+      border: 3px solid #aae;
+      border-radius: 10px;
+      background-color: #2834b9;
+      left: -30px;
+      top: -25px;
+      z-index: 1;
+      content: '';
+      position: absolute;
+    }
+  .news-list.timeline li:after {
+      width: 1px;
+      top: -20px;
+      left: -26px;
+      bottom: -30px;
+      border-right: 2px solid #ccc;
+      content: '';
+      position: absolute;
+    }
+  .news-list.timeline li:last-child::after {
+      display: none;
+    }
+  .news-list.timeline li time, .news-list.timeline li a {
+      top: -30px;
+      color: #666;
+      font-size: 14px;
+      position: absolute;
+    }
+  .news-list.timeline li time {
+      left: 0;
+    }
+  .news-list.timeline li a {
+      left: 60px;
+    }
+.rumors-list li {
+    color: #E25D4F;
+    /* background-color: #2834b9; */
+    background-position: 0 100%;
+    /* background-image: url(https://assets.dxycdn.com/gitrepo/bbs-mobile/dist/static/bg-image-3-2@2x.b56753cd.png); */
+    background-repeat: no-repeat;
+    background-size: auto 3rem;
+  }
+    .rumors-list li a, .rumors-list li a:active, .rumors-list li a:visited {
+      color: green;
+      margin: 10px 0;
+      display: block;
+      text-decoration: none;
+    }
+body {
+  width: 50%;
+  padding: 0;
+  margin: auto;
+  background-color: #eee;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.panel, footer {
+  margin: 0 15px;
+}
+
+table {
+  width: 100%;
+  background-color: #fff;
+}
+
+table td {
+    overflow: hidden;
+    max-width: 10px;
+    background: #f1f2f3;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    font-size: 12px;
+  }
+
+.news-list, .rumors-list {
+  padding: 0px;
+  list-style: none;
+}
+
+.news-list h3, .rumors-list h3 {
+    margin: 0;
+  }
+
+.news-list p, .rumors-list p {
+    color: #666;
+    font-size: 14px;
+  }
+
+.news-list li, .rumors-list li {
+    margin: .5rem 0;
+    padding: 10px 20px;
+    border-radius: 8px;
+    position: relative;
+    text-decoration: none;
+    background-color: #fff;
+  }
+
+footer {
+  border-top: 1px solid #eee;
+}
+
+@media screen and (max-width: 720px) {
+  body {
+    margin: 0;
+    width: 100% !important;
+  }
 }

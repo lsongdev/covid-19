@@ -1,0 +1,18 @@
+.button {
+  cursor: pointer;
+  opacity: .75;
+  outline: 0;
+  color: #fff;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  display: block;
+  appearance: none;
+  font-size: 16px;
+  padding: 10px;
+  background-color: #2834b9;
+  transition: ease-in-out all 100ms;
+  &:hover {
+    opacity: 1;
+  }
+}

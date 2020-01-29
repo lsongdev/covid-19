@@ -1,8 +1,26 @@
-
-.ant-row{
-  margin-bottom: 15px;
-}
-
-.card-table .ant-card-body{
-  padding: 10px !important;
+.overview {
+  padding: 0;
+  display: flex;
+  li {
+    flex: 1;
+    list-style: none;
+    text-align: center;
+    em {
+      display: block;
+      text-align: center;
+      font-size: 22px;
+    }
+    &:nth-child(1) em {
+      color: #E25D4F;
+    }
+    &:nth-child(2) em {
+      color: #F99817;
+    }
+    &:nth-child(3) em {
+      color: #77B634;
+    }
+    &:nth-child(4) em {
+      color: #8D8FAA;
+    }
+  }
 }

@@ -1,7 +1,58 @@
 body {
-  background-color: #fefefe;
+  width: 50%;
+  padding: 0;
+  margin: auto;
+  background-color: #eee;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  user-select: none;
 }
 
-.area-detail {
+.panel, footer {
+  margin: 0 15px;
+}
+
+table {
   width: 100%;
+  background-color: #fff;
+  td {
+    overflow: hidden;
+    max-width: 10px;
+    background: #f1f2f3;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    font-size: 12px;
+  }
+}
+
+.news-list, .rumors-list {
+  padding: 0px;
+  list-style: none;
+  h3 {
+    margin: 0;
+  }
+  p {
+    color: #666;
+    font-size: 14px;
+  }
+  li {
+    margin: .5rem 0;
+    padding: 10px 20px;
+    border-radius: 8px;
+    position: relative;
+    text-decoration: none;
+    background-color: #fff;
+  }
+}
+
+footer {
+  border-top: 1px solid #eee;
+}
+
+@media screen and (max-width: 720px) {
+  body {
+    margin: 0;
+    width: 100% !important;
+  }
 }

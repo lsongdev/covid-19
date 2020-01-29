@@ -1,0 +1,16 @@
+.rumors-list {
+  li {
+    color: #E25D4F;
+    /* background-color: #2834b9; */
+    background-position: 0 100%;
+    /* background-image: url(https://assets.dxycdn.com/gitrepo/bbs-mobile/dist/static/bg-image-3-2@2x.b56753cd.png); */
+    background-repeat: no-repeat;
+    background-size: auto 3rem;
+    a, a:active, a:visited {
+      color: green;
+      margin: 10px 0;
+      display: block;
+      text-decoration: none;
+    }
+  }
+}
