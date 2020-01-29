@@ -1,0 +1,80 @@
+.interface{
+  color: #fff;
+  width: 150px;
+  height: 80px;
+  padding: 5px;
+  position: relative;
+  font-family: monospace;
+  margin-right: 10px;
+  display: inline-block;
+  border-radius: 5px;
+  transition: all 300ms linear;
+  box-shadow: 2px 2px 2px 2px #ddd;
+  background: linear-gradient(45deg, #87e0fd 12%,#53cbf1 61%);
+
+  &:hover{
+    box-shadow: 3px 3px 3px 3px #ddd;
+  }
+
+  &-name{
+    color: #fff;
+  }
+
+  &-label{
+    margin-top: -3px;
+    text-align: right;
+  }
+
+  &-expand, &-upload, &-download {
+    position: relative;
+    font-size: 8px;
+    line-height: 10px;
+    display: inline-block;
+    font-family: monospace;
+    overflow: hidden;
+    border-radius: 3px;
+    background: #030303;
+    padding: 1px 2px;
+    margin-right: 2px;
+  }
+
+  &-upload, &-download{
+    padding-left:8px;
+
+    &:after{
+      left: 3px;
+      top: 4px;
+      width: 3px;
+      height: 3px;
+      content: '';
+      display: block;
+      position: absolute;
+      background: #f70;
+      border-radius: 3px;
+    }
+  }
+  &-download:after{
+    background: lightgreen;
+  }
+
+  &-expand{
+    width: 10px;
+    content: 'i';
+    cursor: pointer;
+    text-align: center;
+  }
+
+  &-view{
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    background: #585858;
+
+    h3{
+      color: #fff;
+      font-family: monospace;
+    }
+  }
+}

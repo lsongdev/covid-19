@@ -1,0 +1,28 @@
+{
+  "name": "@song940/2019-ncov",
+  "version": "1.0.0",
+  "description": "simple app for react",
+  "main": "index.js",
+  "scripts": {
+    "build": "kelp-build"
+  },
+  "author": "lsong",
+  "license": "MIT",
+  "devDependencies": {
+    "kelp-build": "^0.0.3",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
+  },
+  "keywords": [
+    "react",
+    "demo"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/song940/react-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/song940/react-app/issues"
+  },
+  "homepage": "https://github.com/song940/react-app#readme"
+}
