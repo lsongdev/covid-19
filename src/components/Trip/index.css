@@ -1,0 +1,45 @@
+
+.trip {
+
+  &-query {
+    input {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  &-filter {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow-x: scroll;
+    white-space: nowrap;
+    border: 1px solid #ccc;
+
+    li {
+      color: #333;
+      padding: 5px 15px;
+      display: inline-block;
+      background-color: #fff;
+
+      &.active {
+        border-bottom: 3px solid #2834b9;
+      }
+    }
+  }
+}
+
+.pager {
+  text-align: right;
+  li, button, input {
+    width: 50px;
+    font-size: 12px;
+    display: inline-block;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+  }
+}
