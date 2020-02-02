@@ -11,8 +11,10 @@ import ReactEcharts from 'echarts-for-react/lib/core';
 const AreaMap = ({ province, data = [], onClick }) => {
   const [loading, setLoading] = useState(true)
   useEffect(() => {
+    setLoading(true);
     if (province) {
       import(`echarts/map/json/province/${province.pinyin}.json`).then(map => {
+        console.log('loading map', province.pinyin);
         echarts.registerMap(province.pinyin, map.default)
         setLoading(false)
       })
@@ -51,8 +53,9 @@ const AreaMap = ({ province, data = [], onClick }) => {
         min: 0,
         max: 2000,
         align: 'right',
-        top: 0,
         right: 0,
+        top: province ? 0 : '30%',
+        left: 'auto',
         inRange: {
           color: [
             '#ffc0b1',
@@ -103,18 +106,21 @@ const AreaMap = ({ province, data = [], onClick }) => {
   };
   return (
     <Panel title={"疫情地图" + (province ? ` - ${province.provinceName}` : '')} >
-      {/* <img width="100%" src={StatisticsService.imgUrl} /> */}
-      <ReactEcharts
-        echarts={echarts}
-        option={getOption()}
-        lazyUpdate={true}
-        style={{ width: '100%' }}
-        onEvents={{
-          click(e) {
-            onClick && onClick(e.name);
-          }
-        }}
-      />
+      {
+        loading ?
+          <div className="loading">正在加载地图数据 ...</div> :
+          <ReactEcharts
+            echarts={echarts}
+            option={getOption()}
+            lazyUpdate={true}
+            style={{ width: '100%' }}
+            onEvents={{
+              click(e) {
+                onClick && onClick(e.name);
+              }
+            }}
+          />
+      }
     </Panel>
   );
 };

@@ -1,15 +1,16 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, Suspense } from 'react';
 import ReactDOM from 'react-dom';
 import Header from '../components/Header';
 import Overview from '../components/Overview';
-import AreaMap from '../components/AreaMap';
 import AreaTable from '../components/AreaTable';
-import Trending from '../components/Trending';
 import News from '../components/News';
 import Rumors from '../components/Rumors';
 import Trip from '../components/Trip';
 import Footer from '../components/Footer';
 import AreaData from '../data/area.json';
+
+const AreaMap = React.lazy(() => import('../components/AreaMap'));
+const Trending = React.lazy(() => import('../components/Trending'));
 
 import './main.css';
 
@@ -41,18 +42,28 @@ const App = () => {
   }, []);
 
   const { StatisticsService, TimelineService, IndexRumorList } = data;
+  const { imgUrl, dailyPic } = StatisticsService || {};
   const AreaStat = (data.AreaStat || []).map(processData);
-
   const handleClickMap = name => {
     const p = AreaStat.find(x => x.provinceShortName === name);
     p && setProvince(p);
   };
+
+
   return (
     <React.Fragment>
       <Header province={province} onBack={() => setProvince()} />
       <Overview data={province ? province : StatisticsService} />
-      <AreaMap data={AreaStat} province={province} onClick={handleClickMap} />
-      <Trending province={province} />
+
+      <Suspense fallback={<img width="100%" src={imgUrl} />} >
+        <AreaMap data={AreaStat} province={province} onClick={handleClickMap} />
+      </Suspense>
+
+      <Suspense fallback={<img width="100%" src={dailyPic} />}>
+        <Trending province={province} />
+      </Suspense>
+      
+      
       <AreaTable data={AreaStat} />
       <News data={TimelineService} province={province} />
       <Rumors data={IndexRumorList} />
