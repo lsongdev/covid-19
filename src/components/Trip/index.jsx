@@ -3,8 +3,9 @@ import Panel from '../Panel';
 
 import './index.css';
 
-const Pager = ({ count, size = 10, onChange }) => {
+const Pager = ({ count, initialSize = 10, onChange }) => {
   const [page, setPage] = useState(1);
+  const [size, setSize] = useState(initialSize);
   const pages = Math.ceil(count / size);
 
   const emit = page => {
@@ -31,7 +32,7 @@ const Pager = ({ count, size = 10, onChange }) => {
         <li><input type="number" value={page} onChange={e => emit(e.target.value)} /></li>
         {next(page)}
       </ul>
-      <input type="number" value="10" />
+      <input type="number" value="10" onChange={ e => setSize(e.target.value) } />
     </div>
   );
 };
@@ -72,15 +73,15 @@ const Trip = () => {
       <div className="trip-query" >
         <input placeholder="输入关键词，例如航班号、车次、地点" onChange={onType} />
         <ul className="trip-filter" >
-          <li className={t_type === null && 'active'} onClick={() => setFilter(null)} >全部</li>
-          <li className={t_type === 1 && 'active'} onClick={() => setFilter(1)} >飞机</li>
-          <li className={t_type === 2 && 'active'} onClick={() => setFilter(2)} >火车</li>
-          <li className={t_type === 3 && 'active'} onClick={() => setFilter(3)} >地铁</li>
-          <li className={t_type === 4 && 'active'} onClick={() => setFilter(4)} >长途客车/大巴</li>
-          <li className={t_type === 5 && 'active'} onClick={() => setFilter(5)} >公交车</li>
-          <li className={t_type === 6 && 'active'} onClick={() => setFilter(6)} >出租车</li>
-          <li className={t_type === 7 && 'active'} onClick={() => setFilter(7)} >轮船</li>
-          <li className={t_type === 8 && 'active'} onClick={() => setFilter(8)} >公共场所</li>
+          <li className={t_type === null && 'active' || ''} onClick={() => setFilter(null)} >全部</li>
+          <li className={t_type === 1 && 'active' || ''} onClick={() => setFilter(1)} >飞机</li>
+          <li className={t_type === 2 && 'active' || ''} onClick={() => setFilter(2)} >火车</li>
+          <li className={t_type === 3 && 'active' || ''} onClick={() => setFilter(3)} >地铁</li>
+          <li className={t_type === 4 && 'active' || ''} onClick={() => setFilter(4)} >长途客车/大巴</li>
+          <li className={t_type === 5 && 'active' || ''} onClick={() => setFilter(5)} >公交车</li>
+          <li className={t_type === 6 && 'active' || ''} onClick={() => setFilter(6)} >出租车</li>
+          <li className={t_type === 7 && 'active' || ''} onClick={() => setFilter(7)} >轮船</li>
+          <li className={t_type === 8 && 'active' || ''} onClick={() => setFilter(8)} >公共场所</li>
         </ul>
       </div>
       <table className="trip">
@@ -97,8 +98,8 @@ const Trip = () => {
           {
             list
               .slice(offset.start, offset.end)
-              .map(item => (
-                <tr>
+              .map((item, i) => (
+                <tr key={i} >
                   <td>{item.t_date.replace('2020-', '')}</td>
                   <td>{item.t_no}</td>
                   <td>{item.t_pos_start}</td>

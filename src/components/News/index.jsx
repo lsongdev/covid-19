@@ -5,7 +5,7 @@ import { formatResponse } from '../../utils';
 
 import './index.css';
 
-const News = ({ data = [] }) => {
+const News = ({ data = [], province }) => {
   const [page, setPage] = useState(1);
   const [list, setData] = useState([]);
   const fetchData = () =>
@@ -20,10 +20,11 @@ const News = ({ data = [] }) => {
   }, []);
 
   return (
-    <Panel title="实时新闻" >
+    <Panel title={ `实时新闻` + (province ? ` - ${province.provinceName}` : '') } >
       <ul className="news-list timeline">
         {
           (list || data)
+            .filter(x => province ? province.provinceName === x.provinceName : true)
             .slice(0, page * 10)
             .map((news, i) => (
               <li key={`news-${i}`}>

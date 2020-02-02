@@ -1,8 +1,45 @@
-import React from 'react';
-import ReactEcharts from 'echarts-for-react';
+import React, { useState, useEffect } from 'react';
 import Panel from '../Panel';
 
-const AreaMap = ({ data = [] }) => {
+import echarts from 'echarts/lib/echarts';
+import 'echarts/lib/chart/map';
+import 'echarts/lib/component/visualMap';
+import 'echarts/lib/component/tooltip';
+
+import ReactEcharts from 'echarts-for-react/lib/core';
+
+const AreaMap = ({ province, data = [], onClick }) => {
+  const [loading, setLoading] = useState(true)
+  useEffect(() => {
+    if (province) {
+      import(`echarts/map/json/province/${province.pinyin}.json`).then(map => {
+        echarts.registerMap(province.pinyin, map.default)
+        setLoading(false)
+      })
+    } else {
+      import(`echarts/map/json/china.json`).then(map => {
+        echarts.registerMap('china', map.default)
+        setLoading(false)
+      })
+    }
+  }, [province]);
+
+  const processData = (data = []) => {
+    if (province) {
+      const p = data.find(x => x.provinceShortName === province.provinceShortName);
+      return p.cities.map(city => {
+        return {
+          name: city.fullCityName,
+          value: city.confirmedCount
+        };
+      });
+    }
+    return data.map(x => ({
+      name: x.provinceShortName,
+      value: x.confirmedCount
+    }));
+  };
+
   const getOption = () => {
     return {
       tooltip: {
@@ -14,6 +51,7 @@ const AreaMap = ({ data = [] }) => {
         min: 0,
         max: 2000,
         align: 'right',
+        top: 0,
         right: 0,
         inRange: {
           color: [
@@ -48,13 +86,8 @@ const AreaMap = ({ data = [] }) => {
           position: 'inside',
           fontSize: 6
         },
-        mapType: 'china',
-        data: data.map(x => {
-          return {
-            name: x.provinceShortName,
-            value: x.confirmedCount
-          };
-        }),
+        mapType: province ? province.pinyin : 'china',
+        data: processData(data),
         zoom: 1.2,
         roam: false,
         showLegendSymbol: false,
@@ -69,9 +102,19 @@ const AreaMap = ({ data = [] }) => {
     }
   };
   return (
-    <Panel title="疫情地图" >
+    <Panel title={"疫情地图" + (province ? ` - ${province.provinceName}` : '')} >
       {/* <img width="100%" src={StatisticsService.imgUrl} /> */}
-      <ReactEcharts option={getOption()} style={{ width: '100%' }} />
+      <ReactEcharts
+        echarts={echarts}
+        option={getOption()}
+        lazyUpdate={true}
+        style={{ width: '100%' }}
+        onEvents={{
+          click(e) {
+            onClick && onClick(e.name);
+          }
+        }}
+      />
     </Panel>
   );
 };

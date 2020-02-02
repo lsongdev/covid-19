@@ -1,0 +1,2262 @@
+[
+  {
+    "pinyin": "hubei",
+    "name": "湖北",
+    "provinceName": "湖北省",
+    "provinceShortName": "湖北",
+    "locationId": 420000,
+    "cities": [
+      {
+        "cityName": "武汉",
+        "locationId": 420100,
+        "fullCityName": "武汉市"
+      },
+      {
+        "cityName": "黄冈",
+        "locationId": 421100,
+        "fullCityName": "黄冈市"
+      },
+      {
+        "cityName": "孝感",
+        "locationId": 420900,
+        "fullCityName": "孝感市"
+      },
+      {
+        "cityName": "襄阳",
+        "locationId": 420600,
+        "fullCityName": "襄阳市"
+      },
+      {
+        "cityName": "随州",
+        "locationId": 421300,
+        "fullCityName": "随州市"
+      },
+      {
+        "cityName": "宜昌",
+        "locationId": 420500,
+        "fullCityName": "宜昌市"
+      },
+      {
+        "cityName": "荆州",
+        "locationId": 421000,
+        "fullCityName": "荆州市"
+      },
+      {
+        "cityName": "荆门",
+        "locationId": 420800,
+        "fullCityName": "荆门市"
+      },
+      {
+        "cityName": "鄂州",
+        "locationId": 420700,
+        "fullCityName": "鄂州市"
+      },
+      {
+        "cityName": "黄石",
+        "locationId": 420200,
+        "fullCityName": "黄石市"
+      },
+      {
+        "cityName": "咸宁",
+        "locationId": 421200,
+        "fullCityName": "咸宁市"
+      },
+      {
+        "cityName": "十堰",
+        "locationId": 420300,
+        "fullCityName": "十堰市"
+      },
+      {
+        "cityName": "仙桃",
+        "locationId": 429004,
+        "fullCityName": "仙桃市"
+      },
+      {
+        "cityName": "恩施州",
+        "locationId": 422800,
+        "fullCityName": "恩施土家族苗族自治州"
+      },
+      {
+        "cityName": "天门",
+        "locationId": 429006,
+        "fullCityName": "天门市"
+      },
+      {
+        "cityName": "潜江",
+        "locationId": 429005,
+        "fullCityName": "潜江市"
+      },
+      {
+        "cityName": "神农架林区",
+        "locationId": 429021,
+        "fullCityName": "神农架林区"
+      },
+      {
+        "cityName": "未知地区",
+        "locationId": 0,
+        "fullCityName": "未知地区"
+      }
+    ]
+  },
+  {
+    "pinyin": "zhejiang",
+    "name": "浙江",
+    "provinceName": "浙江省",
+    "provinceShortName": "浙江",
+    "locationId": 330000,
+    "cities": [
+      {
+        "cityName": "温州",
+        "locationId": 330300,
+        "fullCityName": "温州市"
+      },
+      {
+        "cityName": "杭州",
+        "locationId": 330100,
+        "fullCityName": "杭州市"
+      },
+      {
+        "cityName": "台州",
+        "locationId": 331000,
+        "fullCityName": "台州市"
+      },
+      {
+        "cityName": "宁波",
+        "locationId": 330200,
+        "fullCityName": "宁波市"
+      },
+      {
+        "cityName": "金华",
+        "locationId": 330700,
+        "fullCityName": "金华市"
+      },
+      {
+        "cityName": "绍兴",
+        "locationId": 330600,
+        "fullCityName": "绍兴市"
+      },
+      {
+        "cityName": "嘉兴",
+        "locationId": 330400,
+        "fullCityName": "嘉兴市"
+      },
+      {
+        "cityName": "衢州",
+        "locationId": 330800,
+        "fullCityName": "衢州市"
+      },
+      {
+        "cityName": "丽水",
+        "locationId": 331100,
+        "fullCityName": "丽水市"
+      },
+      {
+        "cityName": "舟山",
+        "locationId": 330900,
+        "fullCityName": "舟山市"
+      },
+      {
+        "cityName": "湖州",
+        "locationId": 330500,
+        "fullCityName": "湖州市"
+      }
+    ]
+  },
+  {
+    "pinyin": "guangdong",
+    "name": "广东",
+    "provinceName": "广东省",
+    "provinceShortName": "广东",
+    "locationId": 440000,
+    "cities": [
+      {
+        "cityName": "深圳",
+        "locationId": 440300,
+        "fullCityName": "深圳市"
+      },
+      {
+        "cityName": "广州",
+        "locationId": 440100,
+        "fullCityName": "广州市"
+      },
+      {
+        "cityName": "佛山",
+        "locationId": 440600,
+        "fullCityName": "佛山市"
+      },
+      {
+        "cityName": "珠海",
+        "locationId": 440400,
+        "fullCityName": "珠海市"
+      },
+      {
+        "cityName": "东莞",
+        "locationId": 441900,
+        "fullCityName": "东莞市"
+      },
+      {
+        "cityName": "惠州",
+        "locationId": 441300,
+        "fullCityName": "惠州市"
+      },
+      {
+        "cityName": "中山",
+        "locationId": 442000,
+        "fullCityName": "中山市"
+      },
+      {
+        "cityName": "汕头",
+        "locationId": 440500,
+        "fullCityName": "汕头市"
+      },
+      {
+        "cityName": "湛江",
+        "locationId": 440800,
+        "fullCityName": "湛江市"
+      },
+      {
+        "cityName": "阳江",
+        "locationId": 441700,
+        "fullCityName": "阳江市"
+      },
+      {
+        "cityName": "肇庆",
+        "locationId": 441200,
+        "fullCityName": "肇庆市"
+      },
+      {
+        "cityName": "清远",
+        "locationId": 441800,
+        "fullCityName": "清远市"
+      },
+      {
+        "cityName": "揭阳",
+        "locationId": 445200,
+        "fullCityName": "揭阳市"
+      },
+      {
+        "cityName": "梅州",
+        "locationId": 441400,
+        "fullCityName": "梅州市"
+      },
+      {
+        "cityName": "韶关",
+        "locationId": 440200,
+        "fullCityName": "韶关市"
+      },
+      {
+        "cityName": "汕尾",
+        "locationId": 441500,
+        "fullCityName": "汕尾市"
+      },
+      {
+        "cityName": "茂名",
+        "locationId": 440900,
+        "fullCityName": "茂名市"
+      },
+      {
+        "cityName": "江门",
+        "locationId": 440700,
+        "fullCityName": "江门市"
+      },
+      {
+        "cityName": "潮州",
+        "locationId": 445100,
+        "fullCityName": "潮州市"
+      },
+      {
+        "cityName": "河源",
+        "locationId": 441600,
+        "fullCityName": "河源市"
+      }
+    ]
+  },
+  {
+    "pinyin": "henan",
+    "name": "河南",
+    "provinceName": "河南省",
+    "provinceShortName": "河南",
+    "locationId": 410000,
+    "cities": [
+      {
+        "cityName": "信阳",
+        "locationId": 411500,
+        "fullCityName": "信阳市"
+      },
+      {
+        "cityName": "南阳",
+        "locationId": 411300,
+        "fullCityName": "南阳市"
+      },
+      {
+        "cityName": "郑州",
+        "locationId": 410100,
+        "fullCityName": "郑州市"
+      },
+      {
+        "cityName": "驻马店",
+        "locationId": 411700,
+        "fullCityName": "驻马店市"
+      },
+      {
+        "cityName": "周口",
+        "locationId": 411600,
+        "fullCityName": "周口市"
+      },
+      {
+        "cityName": "商丘",
+        "locationId": 411400,
+        "fullCityName": "商丘市"
+      },
+      {
+        "cityName": "安阳",
+        "locationId": 410500,
+        "fullCityName": "安阳市"
+      },
+      {
+        "cityName": "新乡",
+        "locationId": 410700,
+        "fullCityName": "新乡市"
+      },
+      {
+        "cityName": "漯河",
+        "locationId": 411100,
+        "fullCityName": "漯河市"
+      },
+      {
+        "cityName": "许昌",
+        "locationId": 411000,
+        "fullCityName": "许昌市"
+      },
+      {
+        "cityName": "平顶山",
+        "locationId": 410400,
+        "fullCityName": "平顶山市"
+      },
+      {
+        "cityName": "开封",
+        "locationId": 410200,
+        "fullCityName": "开封市"
+      },
+      {
+        "cityName": "三门峡",
+        "locationId": 411200,
+        "fullCityName": "三门峡市"
+      },
+      {
+        "cityName": "永城",
+        "locationId": 411481,
+        "fullCityName": "永城市"
+      },
+      {
+        "cityName": "鹤壁",
+        "locationId": 410600,
+        "fullCityName": "鹤壁市"
+      },
+      {
+        "cityName": "洛阳",
+        "locationId": 410300,
+        "fullCityName": "洛阳市"
+      },
+      {
+        "cityName": "濮阳",
+        "locationId": 410900,
+        "fullCityName": "濮阳市"
+      },
+      {
+        "cityName": "焦作",
+        "locationId": 410800,
+        "fullCityName": "焦作市"
+      },
+      {
+        "cityName": "长垣",
+        "locationId": 0,
+        "fullCityName": "长垣县"
+      },
+      {
+        "cityName": "滑县",
+        "locationId": 410526,
+        "fullCityName": "滑县"
+      }
+    ]
+  },
+  {
+    "pinyin": "hunan",
+    "name": "湖南",
+    "provinceName": "湖南省",
+    "provinceShortName": "湖南",
+    "locationId": 430000,
+    "cities": [
+      {
+        "cityName": "长沙",
+        "locationId": 430100,
+        "fullCityName": "长沙市"
+      },
+      {
+        "cityName": "岳阳",
+        "locationId": 430600,
+        "fullCityName": "岳阳市"
+      },
+      {
+        "cityName": "邵阳",
+        "locationId": 430500,
+        "fullCityName": "邵阳市"
+      },
+      {
+        "cityName": "常德",
+        "locationId": 430700,
+        "fullCityName": "常德市"
+      },
+      {
+        "cityName": "怀化",
+        "locationId": 431200,
+        "fullCityName": "怀化市"
+      },
+      {
+        "cityName": "娄底",
+        "locationId": 431300,
+        "fullCityName": "娄底市"
+      },
+      {
+        "cityName": "衡阳",
+        "locationId": 430400,
+        "fullCityName": "衡阳市"
+      },
+      {
+        "cityName": "益阳",
+        "locationId": 430900,
+        "fullCityName": "益阳市"
+      },
+      {
+        "cityName": "株洲",
+        "locationId": 430200,
+        "fullCityName": "株洲市"
+      },
+      {
+        "cityName": "永州",
+        "locationId": 431100,
+        "fullCityName": "永州市"
+      },
+      {
+        "cityName": "湘潭",
+        "locationId": 430300,
+        "fullCityName": "湘潭市"
+      },
+      {
+        "cityName": "郴州",
+        "locationId": 431000,
+        "fullCityName": "郴州市"
+      },
+      {
+        "cityName": "湘西自治州",
+        "locationId": 433100,
+        "fullCityName": "湘西土家族苗族自治州"
+      },
+      {
+        "cityName": "张家界",
+        "locationId": 430800,
+        "fullCityName": "张家界市"
+      }
+    ]
+  },
+  {
+    "pinyin": "anhui",
+    "name": "安徽",
+    "provinceName": "安徽省",
+    "provinceShortName": "安徽",
+    "locationId": 340000,
+    "cities": [
+      {
+        "cityName": "合肥",
+        "locationId": 340100,
+        "fullCityName": "合肥市"
+      },
+      {
+        "cityName": "阜阳",
+        "locationId": 341200,
+        "fullCityName": "阜阳市"
+      },
+      {
+        "cityName": "安庆",
+        "locationId": 340800,
+        "fullCityName": "安庆市"
+      },
+      {
+        "cityName": "亳州",
+        "locationId": 341600,
+        "fullCityName": "亳州市"
+      },
+      {
+        "cityName": "马鞍山",
+        "locationId": 340500,
+        "fullCityName": "马鞍山市"
+      },
+      {
+        "cityName": "蚌埠",
+        "locationId": 340300,
+        "fullCityName": "蚌埠市"
+      },
+      {
+        "cityName": "铜陵",
+        "locationId": 340700,
+        "fullCityName": "铜陵市"
+      },
+      {
+        "cityName": "芜湖",
+        "locationId": 340200,
+        "fullCityName": "芜湖市"
+      },
+      {
+        "cityName": "六安",
+        "locationId": 341500,
+        "fullCityName": "六安市"
+      },
+      {
+        "cityName": "宿州",
+        "locationId": 341300,
+        "fullCityName": "宿州市"
+      },
+      {
+        "cityName": "黄山",
+        "locationId": 341000,
+        "fullCityName": "黄山市"
+      },
+      {
+        "cityName": "淮南",
+        "locationId": 340400,
+        "fullCityName": "淮南市"
+      },
+      {
+        "cityName": "宿松",
+        "locationId": 0,
+        "fullCityName": "宿松县"
+      },
+      {
+        "cityName": "滁州",
+        "locationId": 341100,
+        "fullCityName": "滁州市"
+      },
+      {
+        "cityName": "淮北",
+        "locationId": 340600,
+        "fullCityName": "淮北市"
+      },
+      {
+        "cityName": "池州",
+        "locationId": 341700,
+        "fullCityName": "池州市"
+      },
+      {
+        "cityName": "宣城",
+        "locationId": 341800,
+        "fullCityName": "宣城市"
+      }
+    ]
+  },
+  {
+    "pinyin": "jiangxi",
+    "name": "江西",
+    "provinceName": "江西省",
+    "provinceShortName": "江西",
+    "locationId": 360000,
+    "cities": [
+      {
+        "cityName": "南昌",
+        "locationId": 360100,
+        "fullCityName": "南昌市"
+      },
+      {
+        "cityName": "九江",
+        "locationId": 360400,
+        "fullCityName": "九江市"
+      },
+      {
+        "cityName": "新余",
+        "locationId": 360500,
+        "fullCityName": "新余市"
+      },
+      {
+        "cityName": "赣州",
+        "locationId": 360700,
+        "fullCityName": "赣州市"
+      },
+      {
+        "cityName": "宜春",
+        "locationId": 360900,
+        "fullCityName": "宜春市"
+      },
+      {
+        "cityName": "抚州",
+        "locationId": 361000,
+        "fullCityName": "抚州市"
+      },
+      {
+        "cityName": "上饶",
+        "locationId": 361100,
+        "fullCityName": "上饶市"
+      },
+      {
+        "cityName": "吉安",
+        "locationId": 360800,
+        "fullCityName": "吉安市"
+      },
+      {
+        "cityName": "萍乡",
+        "locationId": 360300,
+        "fullCityName": "萍乡市"
+      },
+      {
+        "cityName": "鹰潭",
+        "locationId": 360600,
+        "fullCityName": "鹰潭市"
+      },
+      {
+        "cityName": "景德镇",
+        "locationId": 360200,
+        "fullCityName": "景德镇市"
+      }
+    ]
+  },
+  {
+    "pinyin": "chongqing",
+    "name": "重庆",
+    "provinceName": "重庆市",
+    "provinceShortName": "重庆",
+    "locationId": 500000,
+    "cities": [
+      {
+        "cityName": "万州区",
+        "locationId": 500101,
+        "fullCityName": "万州区"
+      },
+      {
+        "cityName": "云阳县",
+        "locationId": 500235,
+        "fullCityName": "云阳县"
+      },
+      {
+        "cityName": "开州区",
+        "locationId": 500154,
+        "fullCityName": "开州区"
+      },
+      {
+        "cityName": "江北区",
+        "locationId": 500105,
+        "fullCityName": "江北区"
+      },
+      {
+        "cityName": "渝北区",
+        "locationId": 500112,
+        "fullCityName": "渝北区"
+      },
+      {
+        "cityName": "忠县",
+        "locationId": 500233,
+        "fullCityName": "忠县"
+      },
+      {
+        "cityName": "两江新区",
+        "locationId": -1,
+        "fullCityName": "两江新区"
+      },
+      {
+        "cityName": "九龙坡区",
+        "locationId": 500107,
+        "fullCityName": "九龙坡区"
+      },
+      {
+        "cityName": "垫江县",
+        "locationId": 500231,
+        "fullCityName": "垫江县"
+      },
+      {
+        "cityName": "巫溪县",
+        "locationId": 500238,
+        "fullCityName": "巫溪县"
+      },
+      {
+        "cityName": "长寿区",
+        "locationId": 500115,
+        "fullCityName": "长寿区"
+      },
+      {
+        "cityName": "石柱县",
+        "locationId": 500240,
+        "fullCityName": "石柱土家族自治县"
+      },
+      {
+        "cityName": "渝中区",
+        "locationId": 500103,
+        "fullCityName": "渝中区"
+      },
+      {
+        "cityName": "合川区",
+        "locationId": 500117,
+        "fullCityName": "合川区"
+      },
+      {
+        "cityName": "璧山区",
+        "locationId": 500120,
+        "fullCityName": "璧山区"
+      },
+      {
+        "cityName": "奉节县",
+        "locationId": 500236,
+        "fullCityName": "奉节县"
+      },
+      {
+        "cityName": "大渡口区",
+        "locationId": 500104,
+        "fullCityName": "大渡口区"
+      },
+      {
+        "cityName": "巫山县",
+        "locationId": 500237,
+        "fullCityName": "巫山县"
+      },
+      {
+        "cityName": "丰都县",
+        "locationId": 500230,
+        "fullCityName": "丰都县"
+      },
+      {
+        "cityName": "綦江区",
+        "locationId": 500110,
+        "fullCityName": "綦江区"
+      },
+      {
+        "cityName": "大足区",
+        "locationId": 500111,
+        "fullCityName": "大足区"
+      },
+      {
+        "cityName": "铜梁区",
+        "locationId": 500151,
+        "fullCityName": "铜梁区"
+      },
+      {
+        "cityName": "南岸区",
+        "locationId": 500108,
+        "fullCityName": "南岸区"
+      },
+      {
+        "cityName": "江津区",
+        "locationId": 500116,
+        "fullCityName": "江津区"
+      },
+      {
+        "cityName": "永川区",
+        "locationId": 500118,
+        "fullCityName": "永川区"
+      },
+      {
+        "cityName": "潼南区",
+        "locationId": 500152,
+        "fullCityName": "潼南区"
+      },
+      {
+        "cityName": "梁平区",
+        "locationId": 500155,
+        "fullCityName": "梁平区"
+      },
+      {
+        "cityName": "黔江区",
+        "locationId": 500114,
+        "fullCityName": "黔江区"
+      },
+      {
+        "cityName": "荣昌区",
+        "locationId": 500153,
+        "fullCityName": "荣昌区"
+      },
+      {
+        "cityName": "沙坪坝区",
+        "locationId": 500106,
+        "fullCityName": "沙坪坝区"
+      },
+      {
+        "cityName": "涪陵区",
+        "locationId": 500102,
+        "fullCityName": "涪陵区"
+      },
+      {
+        "cityName": "巴南区",
+        "locationId": 500113,
+        "fullCityName": "巴南区"
+      },
+      {
+        "cityName": "城口县",
+        "locationId": 500229,
+        "fullCityName": "城口县"
+      },
+      {
+        "cityName": "秀山县",
+        "locationId": 500241,
+        "fullCityName": "秀山土家族苗族自治县"
+      },
+      {
+        "cityName": "武隆区",
+        "locationId": 500156,
+        "fullCityName": "武隆区"
+      }
+    ]
+  },
+  {
+    "pinyin": "sichuan",
+    "name": "四川",
+    "provinceName": "四川省",
+    "provinceShortName": "四川",
+    "locationId": 510000,
+    "cities": [
+      {
+        "cityName": "成都",
+        "locationId": 510100,
+        "fullCityName": "成都市"
+      },
+      {
+        "cityName": "广安",
+        "locationId": 511600,
+        "fullCityName": "广安市"
+      },
+      {
+        "cityName": "南充",
+        "locationId": 511300,
+        "fullCityName": "南充市"
+      },
+      {
+        "cityName": "绵阳",
+        "locationId": 510700,
+        "fullCityName": "绵阳市"
+      },
+      {
+        "cityName": "内江",
+        "locationId": 511000,
+        "fullCityName": "内江市"
+      },
+      {
+        "cityName": "达州",
+        "locationId": 511700,
+        "fullCityName": "达州市"
+      },
+      {
+        "cityName": "自贡",
+        "locationId": 510300,
+        "fullCityName": "自贡市"
+      },
+      {
+        "cityName": "巴中",
+        "locationId": 511900,
+        "fullCityName": "巴中市"
+      },
+      {
+        "cityName": "德阳",
+        "locationId": 510600,
+        "fullCityName": "德阳市"
+      },
+      {
+        "cityName": "宜宾",
+        "locationId": 511500,
+        "fullCityName": "宜宾市"
+      },
+      {
+        "cityName": "攀枝花",
+        "locationId": 510400,
+        "fullCityName": "攀枝花市"
+      },
+      {
+        "cityName": "遂宁",
+        "locationId": 510900,
+        "fullCityName": "遂宁市"
+      },
+      {
+        "cityName": "雅安",
+        "locationId": 511800,
+        "fullCityName": "雅安市"
+      },
+      {
+        "cityName": "泸州",
+        "locationId": 510500,
+        "fullCityName": "泸州市"
+      },
+      {
+        "cityName": "甘孜州",
+        "locationId": 513300,
+        "fullCityName": "甘孜藏族自治州"
+      },
+      {
+        "cityName": "凉山州",
+        "locationId": 513400,
+        "fullCityName": "凉山彝族自治州"
+      },
+      {
+        "cityName": "乐山",
+        "locationId": 511100,
+        "fullCityName": "乐山市"
+      },
+      {
+        "cityName": "眉山",
+        "locationId": 511400,
+        "fullCityName": "眉山市"
+      },
+      {
+        "cityName": "资阳",
+        "locationId": 512000,
+        "fullCityName": "资阳市"
+      },
+      {
+        "cityName": "广元",
+        "locationId": 510800,
+        "fullCityName": "广元市"
+      },
+      {
+        "cityName": "阿坝州",
+        "locationId": 0,
+        "fullCityName": "阿坝藏族羌族自治州"
+      }
+    ]
+  },
+  {
+    "pinyin": "shandong",
+    "name": "山东",
+    "provinceName": "山东省",
+    "provinceShortName": "山东",
+    "locationId": 370000,
+    "cities": [
+      {
+        "cityName": "威海",
+        "locationId": 371000,
+        "fullCityName": "威海市"
+      },
+      {
+        "cityName": "临沂",
+        "locationId": 371300,
+        "fullCityName": "临沂市"
+      },
+      {
+        "cityName": "青岛",
+        "locationId": 370200,
+        "fullCityName": "青岛市"
+      },
+      {
+        "cityName": "烟台",
+        "locationId": 370600,
+        "fullCityName": "烟台市"
+      },
+      {
+        "cityName": "济南",
+        "locationId": 370100,
+        "fullCityName": "济南市"
+      },
+      {
+        "cityName": "德州",
+        "locationId": 371400,
+        "fullCityName": "德州市"
+      },
+      {
+        "cityName": "枣庄",
+        "locationId": 370400,
+        "fullCityName": "枣庄市"
+      },
+      {
+        "cityName": "济宁",
+        "locationId": 370800,
+        "fullCityName": "济宁市"
+      },
+      {
+        "cityName": "日照",
+        "locationId": 371100,
+        "fullCityName": "日照市"
+      },
+      {
+        "cityName": "淄博",
+        "locationId": 370300,
+        "fullCityName": "淄博市"
+      },
+      {
+        "cityName": "潍坊",
+        "locationId": 370700,
+        "fullCityName": "潍坊市"
+      },
+      {
+        "cityName": "滨州",
+        "locationId": 371600,
+        "fullCityName": "滨州市"
+      },
+      {
+        "cityName": "聊城",
+        "locationId": 371500,
+        "fullCityName": "聊城市"
+      },
+      {
+        "cityName": "菏泽",
+        "locationId": 371700,
+        "fullCityName": "菏泽市"
+      },
+      {
+        "cityName": "泰安",
+        "locationId": 370900,
+        "fullCityName": "泰安市"
+      }
+    ]
+  },
+  {
+    "pinyin": "jiangsu",
+    "name": "江苏",
+    "provinceName": "江苏省",
+    "provinceShortName": "江苏",
+    "locationId": 320000,
+    "cities": [
+      {
+        "cityName": "苏州",
+        "locationId": 320500,
+        "fullCityName": "苏州市"
+      },
+      {
+        "cityName": "南京",
+        "locationId": 320100,
+        "fullCityName": "南京市"
+      },
+      {
+        "cityName": "徐州",
+        "locationId": 320300,
+        "fullCityName": "徐州市"
+      },
+      {
+        "cityName": "泰州",
+        "locationId": 321200,
+        "fullCityName": "泰州市"
+      },
+      {
+        "cityName": "常州",
+        "locationId": 320400,
+        "fullCityName": "常州市"
+      },
+      {
+        "cityName": "连云港",
+        "locationId": 320700,
+        "fullCityName": "连云港市"
+      },
+      {
+        "cityName": "无锡",
+        "locationId": 320200,
+        "fullCityName": "无锡市"
+      },
+      {
+        "cityName": "扬州",
+        "locationId": 321000,
+        "fullCityName": "扬州市"
+      },
+      {
+        "cityName": "盐城",
+        "locationId": 320900,
+        "fullCityName": "盐城市"
+      },
+      {
+        "cityName": "南通",
+        "locationId": 320600,
+        "fullCityName": "南通市"
+      },
+      {
+        "cityName": "淮安",
+        "locationId": 320800,
+        "fullCityName": "淮安市"
+      },
+      {
+        "cityName": "宿迁",
+        "locationId": 321300,
+        "fullCityName": "宿迁市"
+      },
+      {
+        "cityName": "镇江",
+        "locationId": 321100,
+        "fullCityName": "镇江市"
+      }
+    ]
+  },
+  {
+    "pinyin": "shanghai",
+    "name": "上海",
+    "provinceName": "上海市",
+    "provinceShortName": "上海",
+    "locationId": 310000,
+    "cities": [
+      {
+        "cityName": "外地来沪人员",
+        "locationId": -1,
+        "fullCityName": "外地来沪人员"
+      },
+      {
+        "cityName": "浦东新区",
+        "locationId": 310115,
+        "fullCityName": "浦东新区"
+      },
+      {
+        "cityName": "静安区",
+        "locationId": 310106,
+        "fullCityName": "静安区"
+      },
+      {
+        "cityName": "宝山区",
+        "locationId": 310113,
+        "fullCityName": "宝山区"
+      },
+      {
+        "cityName": "长宁区",
+        "locationId": 310105,
+        "fullCityName": "长宁区"
+      },
+      {
+        "cityName": "徐汇区",
+        "locationId": 310104,
+        "fullCityName": "徐汇区"
+      },
+      {
+        "cityName": "闵行区",
+        "locationId": 310112,
+        "fullCityName": "闵行区"
+      },
+      {
+        "cityName": "松江区",
+        "locationId": 310117,
+        "fullCityName": "松江区"
+      },
+      {
+        "cityName": "虹口区",
+        "locationId": 310109,
+        "fullCityName": "虹口区"
+      },
+      {
+        "cityName": "黄浦区",
+        "locationId": 310101,
+        "fullCityName": "黄浦区"
+      },
+      {
+        "cityName": "奉贤区",
+        "locationId": 310120,
+        "fullCityName": "奉贤区"
+      },
+      {
+        "cityName": "普陀区",
+        "locationId": 310107,
+        "fullCityName": "普陀区"
+      },
+      {
+        "cityName": "青浦区",
+        "locationId": 310118,
+        "fullCityName": "青浦区"
+      },
+      {
+        "cityName": "杨浦区",
+        "locationId": 310110,
+        "fullCityName": "杨浦区"
+      },
+      {
+        "cityName": "嘉定区",
+        "locationId": 310114,
+        "fullCityName": "嘉定区"
+      },
+      {
+        "cityName": "金山区",
+        "locationId": 310116,
+        "fullCityName": "金山区"
+      },
+      {
+        "cityName": "崇明区",
+        "locationId": 310151,
+        "fullCityName": "崇明区"
+      },
+      {
+        "cityName": "未知地区",
+        "locationId": 0,
+        "fullCityName": "未知地区"
+      }
+    ]
+  },
+  {
+    "pinyin": "beijing",
+    "name": "北京",
+    "provinceName": "北京市",
+    "provinceShortName": "北京",
+    "locationId": 110000,
+    "cities": [
+      {
+        "cityName": "海淀区",
+        "locationId": 110108,
+        "fullCityName": "海淀区"
+      },
+      {
+        "cityName": "朝阳区",
+        "locationId": 110105,
+        "fullCityName": "朝阳区"
+      },
+      {
+        "cityName": "大兴区",
+        "locationId": 110115,
+        "fullCityName": "大兴区"
+      },
+      {
+        "cityName": "西城区",
+        "locationId": 110102,
+        "fullCityName": "西城区"
+      },
+      {
+        "cityName": "丰台区",
+        "locationId": 110106,
+        "fullCityName": "丰台区"
+      },
+      {
+        "cityName": "通州区",
+        "locationId": 110112,
+        "fullCityName": "通州区"
+      },
+      {
+        "cityName": "昌平区",
+        "locationId": 110114,
+        "fullCityName": "昌平区"
+      },
+      {
+        "cityName": "外地来京人员",
+        "locationId": -1,
+        "fullCityName": "外地来京人员"
+      },
+      {
+        "cityName": "石景山区",
+        "locationId": 110107,
+        "fullCityName": "石景山区"
+      },
+      {
+        "cityName": "东城区",
+        "locationId": 110101,
+        "fullCityName": "东城区"
+      },
+      {
+        "cityName": "顺义区",
+        "locationId": 110113,
+        "fullCityName": "顺义区"
+      },
+      {
+        "cityName": "房山区",
+        "locationId": 110111,
+        "fullCityName": "房山区"
+      },
+      {
+        "cityName": "门头沟区",
+        "locationId": 110109,
+        "fullCityName": "门头沟区"
+      },
+      {
+        "cityName": "怀柔区",
+        "locationId": 110116,
+        "fullCityName": "怀柔区"
+      }
+    ]
+  },
+  {
+    "pinyin": "fujian",
+    "name": "福建",
+    "provinceName": "福建省",
+    "provinceShortName": "福建",
+    "locationId": 350000,
+    "cities": [
+      {
+        "cityName": "福州",
+        "locationId": 350100,
+        "fullCityName": "福州市"
+      },
+      {
+        "cityName": "莆田",
+        "locationId": 350300,
+        "fullCityName": "莆田市"
+      },
+      {
+        "cityName": "泉州",
+        "locationId": 350500,
+        "fullCityName": "泉州市"
+      },
+      {
+        "cityName": "厦门",
+        "locationId": 350200,
+        "fullCityName": "厦门市"
+      },
+      {
+        "cityName": "漳州",
+        "locationId": 350600,
+        "fullCityName": "漳州市"
+      },
+      {
+        "cityName": "三明",
+        "locationId": 350400,
+        "fullCityName": "三明市"
+      },
+      {
+        "cityName": "宁德",
+        "locationId": 350900,
+        "fullCityName": "宁德市"
+      },
+      {
+        "cityName": "南平",
+        "locationId": 350700,
+        "fullCityName": "南平市"
+      },
+      {
+        "cityName": "龙岩",
+        "locationId": 350800,
+        "fullCityName": "龙岩市"
+      }
+    ]
+  },
+  {
+    "pinyin": "guangxi",
+    "name": "广西",
+    "provinceName": "广西壮族自治区",
+    "provinceShortName": "广西",
+    "locationId": 450000,
+    "cities": [
+      {
+        "cityName": "北海",
+        "locationId": 450500,
+        "fullCityName": "北海市"
+      },
+      {
+        "cityName": "桂林",
+        "locationId": 450300,
+        "fullCityName": "桂林市"
+      },
+      {
+        "cityName": "南宁",
+        "locationId": 450100,
+        "fullCityName": "南宁市"
+      },
+      {
+        "cityName": "柳州",
+        "locationId": 450200,
+        "fullCityName": "柳州市"
+      },
+      {
+        "cityName": "防城港",
+        "locationId": 450600,
+        "fullCityName": "防城港市"
+      },
+      {
+        "cityName": "玉林",
+        "locationId": 450900,
+        "fullCityName": "玉林市"
+      },
+      {
+        "cityName": "河池",
+        "locationId": 451200,
+        "fullCityName": "河池市"
+      },
+      {
+        "cityName": "梧州",
+        "locationId": 450400,
+        "fullCityName": "梧州市"
+      },
+      {
+        "cityName": "贵港",
+        "locationId": 450800,
+        "fullCityName": "贵港市"
+      },
+      {
+        "cityName": "贺州",
+        "locationId": 451100,
+        "fullCityName": "贺州市"
+      },
+      {
+        "cityName": "百色",
+        "locationId": 451000,
+        "fullCityName": "百色市"
+      },
+      {
+        "cityName": "钦州",
+        "locationId": 450700,
+        "fullCityName": "钦州市"
+      }
+    ]
+  },
+  {
+    "pinyin": "hebei",
+    "name": "河北",
+    "provinceName": "河北省",
+    "provinceShortName": "河北",
+    "locationId": 130000,
+    "cities": [
+      {
+        "cityName": "沧州",
+        "locationId": 130900,
+        "fullCityName": "沧州市"
+      },
+      {
+        "cityName": "石家庄",
+        "locationId": 130100,
+        "fullCityName": "石家庄市"
+      },
+      {
+        "cityName": "保定",
+        "locationId": 130600,
+        "fullCityName": "保定市"
+      },
+      {
+        "cityName": "廊坊",
+        "locationId": 131000,
+        "fullCityName": "廊坊市"
+      },
+      {
+        "cityName": "邯郸",
+        "locationId": 130400,
+        "fullCityName": "邯郸市"
+      },
+      {
+        "cityName": "唐山",
+        "locationId": 130200,
+        "fullCityName": "唐山市"
+      },
+      {
+        "cityName": "邢台",
+        "locationId": 130500,
+        "fullCityName": "邢台市"
+      },
+      {
+        "cityName": "张家口",
+        "locationId": 130700,
+        "fullCityName": "张家口市"
+      },
+      {
+        "cityName": "衡水",
+        "locationId": 131100,
+        "fullCityName": "衡水市"
+      },
+      {
+        "cityName": "承德",
+        "locationId": 130800,
+        "fullCityName": "承德市"
+      },
+      {
+        "cityName": "秦皇岛",
+        "locationId": 130300,
+        "fullCityName": "秦皇岛市"
+      }
+    ]
+  },
+  {
+    "pinyin": "shanxi1",
+    "name": "陕西",
+    "provinceName": "陕西省",
+    "provinceShortName": "陕西",
+    "locationId": 610000,
+    "cities": [
+      {
+        "cityName": "西安",
+        "locationId": 610100,
+        "fullCityName": "西安市"
+      },
+      {
+        "cityName": "安康",
+        "locationId": 610900,
+        "fullCityName": "安康市"
+      },
+      {
+        "cityName": "汉中",
+        "locationId": 610700,
+        "fullCityName": "汉中市"
+      },
+      {
+        "cityName": "咸阳",
+        "locationId": 610400,
+        "fullCityName": "咸阳市"
+      },
+      {
+        "cityName": "延安",
+        "locationId": 610600,
+        "fullCityName": "延安市"
+      },
+      {
+        "cityName": "宝鸡",
+        "locationId": 610300,
+        "fullCityName": "宝鸡市"
+      },
+      {
+        "cityName": "铜川",
+        "locationId": 610200,
+        "fullCityName": "铜川市"
+      },
+      {
+        "cityName": "渭南",
+        "locationId": 610500,
+        "fullCityName": "渭南市"
+      },
+      {
+        "cityName": "商洛",
+        "locationId": 611000,
+        "fullCityName": "商洛市"
+      },
+      {
+        "cityName": "榆林",
+        "locationId": 610800,
+        "fullCityName": "榆林市"
+      },
+      {
+        "cityName": "韩城",
+        "locationId": 610581,
+        "fullCityName": "韩城市"
+      }
+    ]
+  },
+  {
+    "pinyin": "yunnan",
+    "name": "云南",
+    "provinceName": "云南省",
+    "provinceShortName": "云南",
+    "locationId": 530000,
+    "cities": [
+      {
+        "cityName": "昆明",
+        "locationId": 530100,
+        "fullCityName": "昆明市"
+      },
+      {
+        "cityName": "西双版纳",
+        "locationId": 532800,
+        "fullCityName": "西双版纳傣族自治州"
+      },
+      {
+        "cityName": "保山",
+        "locationId": 530500,
+        "fullCityName": "保山市"
+      },
+      {
+        "cityName": "玉溪",
+        "locationId": 530400,
+        "fullCityName": "玉溪市"
+      },
+      {
+        "cityName": "丽江",
+        "locationId": 530700,
+        "fullCityName": "丽江市"
+      },
+      {
+        "cityName": "大理",
+        "locationId": 532901,
+        "fullCityName": "大理白族自治州"
+      },
+      {
+        "cityName": "昭通",
+        "locationId": 530600,
+        "fullCityName": "昭通市"
+      },
+      {
+        "cityName": "曲靖",
+        "locationId": 530300,
+        "fullCityName": "曲靖市"
+      },
+      {
+        "cityName": "红河",
+        "locationId": 532500,
+        "fullCityName": "红河哈尼族彝族自治州"
+      },
+      {
+        "cityName": "普洱",
+        "locationId": 530800,
+        "fullCityName": "普洱市"
+      },
+      {
+        "cityName": "德宏",
+        "locationId": 533100,
+        "fullCityName": "德宏傣族景颇族自治州"
+      },
+      {
+        "cityName": "临沧",
+        "locationId": 530900,
+        "fullCityName": "临沧市"
+      }
+    ]
+  },
+  {
+    "pinyin": "heilongjiang",
+    "name": "黑龙江",
+    "provinceName": "黑龙江省",
+    "provinceShortName": "黑龙江",
+    "locationId": 230000,
+    "cities": [
+      {
+        "cityName": "哈尔滨",
+        "locationId": 230100,
+        "fullCityName": "哈尔滨市"
+      },
+      {
+        "cityName": "绥化",
+        "locationId": 231200,
+        "fullCityName": "绥化市"
+      },
+      {
+        "cityName": "佳木斯",
+        "locationId": 230800,
+        "fullCityName": "佳木斯市"
+      },
+      {
+        "cityName": "大庆",
+        "locationId": 230600,
+        "fullCityName": "大庆市"
+      },
+      {
+        "cityName": "牡丹江",
+        "locationId": 231000,
+        "fullCityName": "牡丹江市"
+      },
+      {
+        "cityName": "七台河",
+        "locationId": 230900,
+        "fullCityName": "七台河市"
+      },
+      {
+        "cityName": "鸡西",
+        "locationId": 230300,
+        "fullCityName": "鸡西市"
+      },
+      {
+        "cityName": "齐齐哈尔",
+        "locationId": 230200,
+        "fullCityName": "齐齐哈尔市"
+      },
+      {
+        "cityName": "双鸭山",
+        "locationId": 230500,
+        "fullCityName": "双鸭山市"
+      },
+      {
+        "cityName": "大兴安岭",
+        "locationId": 0,
+        "fullCityName": "大兴安岭地区"
+      },
+      {
+        "cityName": "鹤岗",
+        "locationId": 230400,
+        "fullCityName": "鹤岗市"
+      }
+    ]
+  },
+  {
+    "pinyin": "liaoning",
+    "name": "辽宁",
+    "provinceName": "辽宁省",
+    "provinceShortName": "辽宁",
+    "locationId": 210000,
+    "cities": [
+      {
+        "cityName": "沈阳",
+        "locationId": 210100,
+        "fullCityName": "沈阳市"
+      },
+      {
+        "cityName": "大连",
+        "locationId": 210200,
+        "fullCityName": "大连市"
+      },
+      {
+        "cityName": "盘锦",
+        "locationId": 211100,
+        "fullCityName": "盘锦市"
+      },
+      {
+        "cityName": "锦州",
+        "locationId": 210700,
+        "fullCityName": "锦州市"
+      },
+      {
+        "cityName": "朝阳",
+        "locationId": 211300,
+        "fullCityName": "朝阳市"
+      },
+      {
+        "cityName": "丹东",
+        "locationId": 210600,
+        "fullCityName": "丹东市"
+      },
+      {
+        "cityName": "葫芦岛",
+        "locationId": 211400,
+        "fullCityName": "葫芦岛市"
+      },
+      {
+        "cityName": "本溪",
+        "locationId": 210500,
+        "fullCityName": "本溪市"
+      },
+      {
+        "cityName": "铁岭",
+        "locationId": 211200,
+        "fullCityName": "铁岭市"
+      },
+      {
+        "cityName": "阜新",
+        "locationId": 210900,
+        "fullCityName": "阜新市"
+      },
+      {
+        "cityName": "营口",
+        "locationId": 210800,
+        "fullCityName": "营口市"
+      },
+      {
+        "cityName": "辽阳",
+        "locationId": 211000,
+        "fullCityName": "辽阳市"
+      },
+      {
+        "cityName": "鞍山",
+        "locationId": 210300,
+        "fullCityName": "鞍山市"
+      }
+    ]
+  },
+  {
+    "pinyin": "hainan",
+    "name": "海南",
+    "provinceName": "海南省",
+    "provinceShortName": "海南",
+    "locationId": 460000,
+    "cities": [
+      {
+        "cityName": "三亚",
+        "locationId": 460200,
+        "fullCityName": "三亚市"
+      },
+      {
+        "cityName": "海口",
+        "locationId": 460100,
+        "fullCityName": "海口市"
+      },
+      {
+        "cityName": "万宁",
+        "locationId": 469006,
+        "fullCityName": "万宁市"
+      },
+      {
+        "cityName": "儋州",
+        "locationId": 460400,
+        "fullCityName": "儋州市"
+      },
+      {
+        "cityName": "琼海",
+        "locationId": 469002,
+        "fullCityName": "琼海市"
+      },
+      {
+        "cityName": "陵水",
+        "locationId": 0,
+        "fullCityName": "陵水黎族自治县"
+      },
+      {
+        "cityName": "临高",
+        "locationId": 0,
+        "fullCityName": "临高县"
+      },
+      {
+        "cityName": "澄迈",
+        "locationId": 0,
+        "fullCityName": "澄迈县"
+      },
+      {
+        "cityName": "东方",
+        "locationId": 469007,
+        "fullCityName": "东方市"
+      },
+      {
+        "cityName": "琼中",
+        "locationId": 0,
+        "fullCityName": "琼中黎族苗族自治县"
+      },
+      {
+        "cityName": "定安",
+        "locationId": 0,
+        "fullCityName": "定安县"
+      },
+      {
+        "cityName": "昌江",
+        "locationId": 0,
+        "fullCityName": "昌江黎族自治县"
+      },
+      {
+        "cityName": "乐东",
+        "locationId": 0,
+        "fullCityName": "乐东黎族自治县"
+      }
+    ]
+  },
+  {
+    "pinyin": "shanxi",
+    "name": "山西",
+    "provinceName": "山西省",
+    "provinceShortName": "山西",
+    "locationId": 140000,
+    "cities": [
+      {
+        "cityName": "晋中",
+        "locationId": 140700,
+        "fullCityName": "晋中市"
+      },
+      {
+        "cityName": "运城",
+        "locationId": 140800,
+        "fullCityName": "运城市"
+      },
+      {
+        "cityName": "大同",
+        "locationId": 140200,
+        "fullCityName": "大同市"
+      },
+      {
+        "cityName": "太原",
+        "locationId": 140100,
+        "fullCityName": "太原市"
+      },
+      {
+        "cityName": "吕梁",
+        "locationId": 141100,
+        "fullCityName": "吕梁市"
+      },
+      {
+        "cityName": "长治",
+        "locationId": 140400,
+        "fullCityName": "长治市"
+      },
+      {
+        "cityName": "朔州",
+        "locationId": 140600,
+        "fullCityName": "朔州市"
+      },
+      {
+        "cityName": "晋城",
+        "locationId": 140500,
+        "fullCityName": "晋城市"
+      },
+      {
+        "cityName": "忻州",
+        "locationId": 140900,
+        "fullCityName": "忻州市"
+      },
+      {
+        "cityName": "阳泉",
+        "locationId": 140300,
+        "fullCityName": "阳泉市"
+      },
+      {
+        "cityName": "临汾",
+        "locationId": 141000,
+        "fullCityName": "临汾市"
+      }
+    ]
+  },
+  {
+    "pinyin": "tianjin",
+    "name": "天津",
+    "provinceName": "天津市",
+    "provinceShortName": "天津",
+    "locationId": 120000,
+    "cities": [
+      {
+        "cityName": "河北区",
+        "locationId": 120105,
+        "fullCityName": "河北区"
+      },
+      {
+        "cityName": "河东区",
+        "locationId": 120102,
+        "fullCityName": "河东区"
+      },
+      {
+        "cityName": "外地来津人员",
+        "locationId": 0,
+        "fullCityName": "外地来津人员"
+      },
+      {
+        "cityName": "河西区",
+        "locationId": 120103,
+        "fullCityName": "河西区"
+      },
+      {
+        "cityName": "和平区",
+        "locationId": 120101,
+        "fullCityName": "和平区"
+      },
+      {
+        "cityName": "宝坻区",
+        "locationId": 120115,
+        "fullCityName": "宝坻区"
+      },
+      {
+        "cityName": "东丽区",
+        "locationId": 120110,
+        "fullCityName": "东丽区"
+      },
+      {
+        "cityName": "西青区",
+        "locationId": 120111,
+        "fullCityName": "西青区"
+      },
+      {
+        "cityName": "滨海新区",
+        "locationId": 120116,
+        "fullCityName": "滨海新区"
+      },
+      {
+        "cityName": "南开区",
+        "locationId": 120104,
+        "fullCityName": "南开区"
+      },
+      {
+        "cityName": "红桥区",
+        "locationId": 120106,
+        "fullCityName": "红桥区"
+      },
+      {
+        "cityName": "宁河区",
+        "locationId": 120117,
+        "fullCityName": "宁河区"
+      }
+    ]
+  },
+  {
+    "pinyin": "gansu",
+    "name": "甘肃",
+    "provinceName": "甘肃省",
+    "provinceShortName": "甘肃",
+    "locationId": 620000,
+    "cities": [
+      {
+        "cityName": "兰州",
+        "locationId": 620100,
+        "fullCityName": "兰州市"
+      },
+      {
+        "cityName": "陇南",
+        "locationId": 621200,
+        "fullCityName": "陇南市"
+      },
+      {
+        "cityName": "天水",
+        "locationId": 620500,
+        "fullCityName": "天水市"
+      },
+      {
+        "cityName": "定西",
+        "locationId": 621100,
+        "fullCityName": "定西市"
+      },
+      {
+        "cityName": "临夏",
+        "locationId": 622901,
+        "fullCityName": "临夏回族自治州"
+      },
+      {
+        "cityName": "张掖",
+        "locationId": 620700,
+        "fullCityName": "张掖市"
+      },
+      {
+        "cityName": "白银",
+        "locationId": 620400,
+        "fullCityName": "白银市"
+      },
+      {
+        "cityName": "金昌",
+        "locationId": 620300,
+        "fullCityName": "金昌市"
+      },
+      {
+        "cityName": "平凉",
+        "locationId": 620800,
+        "fullCityName": "平凉市"
+      },
+      {
+        "cityName": "甘南",
+        "locationId": 0,
+        "fullCityName": "甘南藏族自治州"
+      }
+    ]
+  },
+  {
+    "pinyin": "guizhou",
+    "name": "贵州",
+    "provinceName": "贵州省",
+    "provinceShortName": "贵州",
+    "locationId": 520000,
+    "cities": [
+      {
+        "cityName": "六盘水",
+        "locationId": 520200,
+        "fullCityName": "六盘水市"
+      },
+      {
+        "cityName": "黔南州",
+        "locationId": 522700,
+        "fullCityName": "黔南布依族苗族自治州"
+      },
+      {
+        "cityName": "贵阳",
+        "locationId": 520100,
+        "fullCityName": "贵阳市"
+      },
+      {
+        "cityName": "遵义",
+        "locationId": 520300,
+        "fullCityName": "遵义市"
+      },
+      {
+        "cityName": "铜仁",
+        "locationId": 520600,
+        "fullCityName": "铜仁市"
+      },
+      {
+        "cityName": "毕节",
+        "locationId": 520500,
+        "fullCityName": "毕节市"
+      },
+      {
+        "cityName": "黔东南州",
+        "locationId": 0,
+        "fullCityName": "黔东南苗族侗族自治州"
+      },
+      {
+        "cityName": "黔西南州",
+        "locationId": 522300,
+        "fullCityName": "黔西县"
+      }
+    ]
+  },
+  {
+    "pinyin": "ningxia",
+    "name": "宁夏",
+    "provinceName": "宁夏回族自治区",
+    "provinceShortName": "宁夏",
+    "locationId": 640000,
+    "cities": [
+      {
+        "cityName": "银川",
+        "locationId": 640100,
+        "fullCityName": "银川市"
+      },
+      {
+        "cityName": "吴忠",
+        "locationId": 640300,
+        "fullCityName": "吴忠市"
+      },
+      {
+        "cityName": "中卫",
+        "locationId": 640500,
+        "fullCityName": "中卫市"
+      },
+      {
+        "cityName": "固原",
+        "locationId": 640400,
+        "fullCityName": "固原市"
+      },
+      {
+        "cityName": "宁东管委会",
+        "locationId": 0,
+        "fullCityName": "宁东管委会"
+      }
+    ]
+  },
+  {
+    "pinyin": "neimenggu",
+    "name": "内蒙古",
+    "provinceName": "内蒙古自治区",
+    "provinceShortName": "内蒙古",
+    "locationId": 150000,
+    "cities": [
+      {
+        "cityName": "鄂尔多斯",
+        "locationId": 150600,
+        "fullCityName": "鄂尔多斯市"
+      },
+      {
+        "cityName": "包头",
+        "locationId": 150200,
+        "fullCityName": "包头市"
+      },
+      {
+        "cityName": "巴彦淖尔",
+        "locationId": 150800,
+        "fullCityName": "巴彦淖尔市"
+      },
+      {
+        "cityName": "呼和浩特",
+        "locationId": 150100,
+        "fullCityName": "呼和浩特市"
+      },
+      {
+        "cityName": "呼伦贝尔",
+        "locationId": 150700,
+        "fullCityName": "呼伦贝尔市"
+      },
+      {
+        "cityName": "锡林郭勒盟",
+        "locationId": 152500,
+        "fullCityName": "锡林郭勒盟"
+      },
+      {
+        "cityName": "赤峰",
+        "locationId": 150400,
+        "fullCityName": "赤峰市"
+      },
+      {
+        "cityName": "乌兰察布",
+        "locationId": 150900,
+        "fullCityName": "乌兰察布市"
+      },
+      {
+        "cityName": "兴安盟",
+        "locationId": 152200,
+        "fullCityName": "兴安盟"
+      },
+      {
+        "cityName": "通辽",
+        "locationId": 150500,
+        "fullCityName": "通辽市"
+      }
+    ]
+  },
+  {
+    "pinyin": "xinjiang",
+    "name": "新疆",
+    "provinceName": "新疆维吾尔自治区",
+    "provinceShortName": "新疆",
+    "locationId": 650000,
+    "cities": [
+      {
+        "cityName": "乌鲁木齐",
+        "locationId": 650100,
+        "fullCityName": "乌鲁木齐市"
+      },
+      {
+        "cityName": "伊犁州",
+        "locationId": 654000,
+        "fullCityName": "伊犁哈萨克自治州"
+      },
+      {
+        "cityName": "第九师",
+        "locationId": 0,
+        "fullCityName": "第九师"
+      },
+      {
+        "cityName": "吐鲁番",
+        "locationId": 650400,
+        "fullCityName": "吐鲁番市"
+      },
+      {
+        "cityName": "第七师",
+        "locationId": -1,
+        "fullCityName": "第七师"
+      },
+      {
+        "cityName": "第八师",
+        "locationId": 0,
+        "fullCityName": "第八师"
+      },
+      {
+        "cityName": "阿克苏",
+        "locationId": 652901,
+        "fullCityName": "阿克苏地区"
+      }
+    ]
+  },
+  {
+    "pinyin": "jilin",
+    "name": "吉林",
+    "provinceName": "吉林省",
+    "provinceShortName": "吉林",
+    "locationId": 220000,
+    "cities": [
+      {
+        "cityName": "长春",
+        "locationId": 220100,
+        "fullCityName": "长春市"
+      },
+      {
+        "cityName": "吉林",
+        "locationId": 220000,
+        "fullCityName": "吉林省"
+      },
+      {
+        "cityName": "松原",
+        "locationId": 220700,
+        "fullCityName": "松原市"
+      },
+      {
+        "cityName": "延边",
+        "locationId": 0,
+        "fullCityName": "延边朝鲜族自治州"
+      },
+      {
+        "cityName": "四平",
+        "locationId": 220300,
+        "fullCityName": "四平市"
+      },
+      {
+        "cityName": "公主岭",
+        "locationId": 220381,
+        "fullCityName": "公主岭市"
+      },
+      {
+        "cityName": "通化",
+        "locationId": 220500,
+        "fullCityName": "通化市"
+      }
+    ]
+  },
+  {
+    "pinyin": "xianggang",
+    "name": "香港",
+    "provinceName": "香港",
+    "provinceShortName": "香港",
+    "locationId": 810000,
+    "cities": []
+  },
+  {
+    "pinyin": "taiwan",
+    "name": "台湾",
+    "provinceName": "台湾",
+    "provinceShortName": "台湾",
+    "locationId": 710000,
+    "cities": []
+  },
+  {
+    "pinyin": "qinghai",
+    "name": "青海",
+    "provinceName": "青海省",
+    "provinceShortName": "青海",
+    "locationId": 630000,
+    "cities": [
+      {
+        "cityName": "西宁",
+        "locationId": 630100,
+        "fullCityName": "西宁市"
+      }
+    ]
+  },
+  {
+    "pinyin": "aomen",
+    "name": "澳门",
+    "provinceName": "澳门",
+    "provinceShortName": "澳门",
+    "locationId": 820000,
+    "cities": []
+  },
+  {
+    "pinyin": "xizang",
+    "name": "西藏",
+    "provinceName": "西藏自治区",
+    "provinceShortName": "西藏",
+    "locationId": 540000,
+    "cities": []
+  },
+  {
+    "pinyin": "daimingquediqu",
+    "name": "待明确地区",
+    "provinceName": "待明确地区",
+    "provinceShortName": "待明确地区",
+    "locationId": 0,
+    "cities": []
+  }
+]

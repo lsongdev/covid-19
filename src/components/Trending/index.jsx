@@ -1,13 +1,19 @@
 import React, { useState, useEffect } from 'react';
-import ReactEcharts from 'echarts-for-react';
+import ReactEcharts from 'echarts-for-react/lib/core';
 import Panel from '../Panel';
 
-const Trending = () => {
+import echarts from 'echarts/lib/echarts';
+import 'echarts/lib/chart/line';
+import 'echarts/lib/component/legend';
+
+const Trending = ({ province }) => {
   const [data, setData] = useState([]);
+  let url = `https://lab.isaaclin.cn/nCoV/api/overall?latest=0`;
+  if(province) url = `https://lab.isaaclin.cn/nCoV/api/area?latest=0&province=${province.provinceName}`;
   const fetchData = () =>
     Promise
       .resolve()
-      .then(() => fetch(`https://lab.isaaclin.cn/nCoV/api/overall?latest=0`))
+      .then(() => fetch(url))
       .then(res => res.json())
       .then(res => {
         if (res.success)
@@ -30,7 +36,7 @@ const Trending = () => {
       .then(data => data.filter((x, i) => i === data.findIndex(y => y.date === x.date)))
       .then(data => data.sort((a, b) => a.updateTime - b.updateTime))
       .then(setData);
-  }, []);
+  }, [province]);
 
 
 
@@ -85,8 +91,12 @@ const Trending = () => {
   };
 
   return (
-    <Panel title="疫情趋势" >
-      <ReactEcharts option={getOption()} style={{ height: '350px', width: '100%' }} />
+    <Panel title={ "疫情趋势" + (province ? ` - ${province.provinceName}` : '') } >
+      <ReactEcharts 
+        echarts={echarts} 
+        option={getOption()} 
+        lazyUpdate={true}
+        style={{ height: '350px', width: '100%' }} />
     </Panel>
   );
 };

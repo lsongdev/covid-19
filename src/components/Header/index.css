@@ -1,8 +1,20 @@
 header {
   color: #fff;
   padding: 1rem;
+  position: relative;
   background-image: url(//lsong.org/2019-ncov/dist/img/coronavirus.png);
   background-size: 100%;
   background-position: 50%;
   background-color: #777;
+
+  .back {
+    bottom: 100px;
+    right: 0;
+    z-index: 99;
+    font-size: 14px;
+    padding: 5px 10px;
+    position: fixed;
+    border-radius: 20px 0 0 20px;
+    background-color: #2834b9;
+  }
 }
