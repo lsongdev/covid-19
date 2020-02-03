@@ -61,7 +61,7 @@ const AreaMap = ({ province, data = [], onClick }) => {
             '#ff8c71',
             '#ef1717',
             '#9c0505',
-            '#3c0000',
+            '#6c0000',
           ]
         },
         pieces: [

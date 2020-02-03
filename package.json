@@ -9,7 +9,7 @@
   "author": "lsong",
   "license": "MIT",
   "devDependencies": {
-    "kelp-build": "0.0.6",
+    "kelp-build": "^0.0.7-beta",
     "react": "^16.6.0",
     "react-dom": "^16.6.0"
   },
