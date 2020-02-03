@@ -1,7 +1,7 @@
 import React from 'react';
 import ProvinceTable from './ProvinceTable';
 
-const AreaTable = ({ data }) => {
+const AreaTable = ({ data, province: currentProvince }) => {
   return (
     <table className="area-detail">
       <thead>
@@ -17,7 +17,8 @@ const AreaTable = ({ data }) => {
         {
           (data || [])
             .sort((a, b) => b.confirmedCount - a.confirmedCount)
-            .map((province, i) => <ProvinceTable key={`province-${i}`} data={province} />)
+            .filter(x => currentProvince ? currentProvince.provinceName === x.provinceName : true)
+            .map((province, i) => <ProvinceTable active={currentProvince} key={`province-${i}`} data={province} />)
         }
       </tbody>
     </table>

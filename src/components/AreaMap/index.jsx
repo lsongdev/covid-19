@@ -14,7 +14,6 @@ const AreaMap = ({ province, data = [], onClick }) => {
     setLoading(true);
     if (province) {
       import(`echarts/map/json/province/${province.pinyin}.json`).then(map => {
-        console.log('loading map', province.pinyin);
         echarts.registerMap(province.pinyin, map.default)
         setLoading(false)
       })
@@ -61,18 +60,20 @@ const AreaMap = ({ province, data = [], onClick }) => {
             '#ffc0b1',
             '#ff8c71',
             '#ef1717',
-            '#9c0505'
+            '#9c0505',
+            '#3c0000',
           ]
         },
         pieces: [
-          { min: 1000 },
+          { min: 10000 },
+          { min: 1000, max: 9999 },
           { min: 500, max: 999 },
           { min: 100, max: 499 },
           { min: 10, max: 99 },
           { min: 1, max: 9 },
         ],
         padding: 5,
-        showLabel: true,
+        showLabel: !province,
         text: ['高', '低'],
         itemWidth: 10,
         itemHeight: 10,

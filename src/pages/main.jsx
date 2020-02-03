@@ -49,7 +49,6 @@ const App = () => {
     p && setProvince(p);
   };
 
-
   return (
     <React.Fragment>
       <Header province={province} onBack={() => setProvince()} />
@@ -64,7 +63,7 @@ const App = () => {
       </Suspense>
       
       
-      <AreaTable data={AreaStat} />
+      <AreaTable data={AreaStat} province={province} />
       <News data={TimelineService} province={province} />
       <Rumors data={IndexRumorList} />
       <Trip />

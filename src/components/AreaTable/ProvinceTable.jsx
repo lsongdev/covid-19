@@ -1,8 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
-const ProvinceTable = ({ data }) => {
+const ProvinceTable = ({ data, active: initialActive = false }) => {
   const { provinceName, provinceShortName, suspectedCount, confirmedCount, curedCount, deadCount, cities } = data;
-  const [active, setActive] = useState(false);
+  const [active, setActive] = useState(initialActive);
+  
+  useEffect(() => {
+    setActive(initialActive);
+  }, [ initialActive ]);
+
   return (
     [
       <tr key={provinceName} className={`province ${active && 'active'}`} onClick={() => setActive(!active)} >
