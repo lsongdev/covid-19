@@ -9,10 +9,10 @@ import Trip from '../components/Trip';
 import Footer from '../components/Footer';
 import AreaData from '../data/area.json';
 
+import './main.css';
+
 const AreaMap = React.lazy(() => import('../components/AreaMap'));
 const Trending = React.lazy(() => import('../components/Trending'));
-
-import './main.css';
 
 const processData = (area) => {
   const p = AreaData.find(p => p.name === area.provinceShortName);
@@ -42,7 +42,10 @@ const App = () => {
   }, []);
 
   const { StatisticsService, TimelineService, IndexRumorList } = data;
-  const { imgUrl, dailyPic } = StatisticsService || {};
+  let { imgUrl, dailyPic } = StatisticsService || {};
+  imgUrl && (imgUrl = imgUrl.split(','));
+  dailyPic && (dailyPic = dailyPic.split(','));
+
   const AreaStat = (data.AreaStat || []).map(processData);
   const handleClickMap = name => {
     const p = AreaStat.find(x => x.provinceShortName === name);
@@ -54,15 +57,14 @@ const App = () => {
       <Header province={province} onBack={() => setProvince()} />
       <Overview data={province ? province : StatisticsService} />
 
-      <Suspense fallback={<img width="100%" src={imgUrl} />} >
+      <Suspense fallback={<img width="100%" src={imgUrl && imgUrl[0]} />} >
         <AreaMap data={AreaStat} province={province} onClick={handleClickMap} />
       </Suspense>
 
-      <Suspense fallback={<img width="100%" src={dailyPic} />}>
+      <Suspense fallback={<img width="100%" src={dailyPic && dailyPic[0]} />}>
         <Trending province={province} />
       </Suspense>
-      
-      
+
       <AreaTable data={AreaStat} province={province} />
       <News data={TimelineService} province={province} />
       <Rumors data={IndexRumorList} />
