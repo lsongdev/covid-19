@@ -8,12 +8,13 @@ import 'echarts/lib/component/legend';
 
 const Trending = ({ province }) => {
   const [data, setData] = useState([]);
-  let url = `https://lab.isaaclin.cn/nCoV/api/overall?latest=0`;
-  if(province) url = `https://lab.isaaclin.cn/nCoV/api/area?latest=0&province=${province.provinceName}`;
+  let path = `/api/overall?latest=0`;
+  if (province) path = `/api/area?latest=0&province=${province.provinceName}`;
   const fetchData = () =>
     Promise
       .resolve()
-      .then(() => fetch(url))
+      .then(() => fetch(`https://lab.isaaclin.cn/nCoV` + path))
+      .catch(() => fetch(`https://lab.ahusmart.com/nCoV` + path))
       .then(res => res.json())
       .then(res => {
         if (res.success)
@@ -91,10 +92,10 @@ const Trending = ({ province }) => {
   };
 
   return (
-    <Panel title={ "疫情趋势" + (province ? ` - ${province.provinceName}` : '') } >
-      <ReactEcharts 
-        echarts={echarts} 
-        option={getOption()} 
+    <Panel title={"疫情趋势" + (province ? ` - ${province.provinceName}` : '')} >
+      <ReactEcharts
+        echarts={echarts}
+        option={getOption()}
         lazyUpdate={true}
         style={{ height: '350px', width: '100%' }} />
     </Panel>

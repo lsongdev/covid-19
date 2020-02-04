@@ -20,7 +20,7 @@ const News = ({ data = [], province }) => {
   }, []);
 
   return (
-    <Panel title={ `实时新闻` + (province ? ` - ${province.provinceName}` : '') } >
+    <Panel title={`实时新闻` + (province ? ` - ${province.provinceName}` : '')} >
       <ul className="news-list timeline">
         {
           (list || data)

@@ -7,13 +7,13 @@ const Pager = ({ count, initialSize = 10, onChange }) => {
 
   const emit = page => {
     setPage(page);
-    const offset = (page - 1) * 10;
+    const offset = (page - 1) * size;
     onChange && onChange(page, { start: offset, end: offset + size });
   };
 
   useEffect(() => {
     emit(1);
-  }, [count]);
+  }, [count, size]);
 
   const prev = n => {
     return <li><button disabled={page <= 1} onClick={() => emit(page - 1)} >上一页</button></li>
@@ -29,7 +29,7 @@ const Pager = ({ count, initialSize = 10, onChange }) => {
         <li><input type="number" value={page} onChange={e => emit(e.target.value)} /></li>
         {next(page)}
       </ul>
-      <input type="number" value="10" onChange={ e => setSize(e.target.value) } />
+      <input type="number" value={size} onChange={ e => setSize(+e.target.value) } />
     </div>
   );
 };
