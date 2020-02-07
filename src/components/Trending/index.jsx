@@ -36,10 +36,16 @@ const Trending = ({ province }) => {
       }))
       .then(data => data.filter((x, i) => i === data.findIndex(y => y.date === x.date)))
       .then(data => data.sort((a, b) => a.updateTime - b.updateTime))
+      .then(data => data.map((x, i) => {
+        const yesterday = data[i-1];
+        x.suspectedIncr = yesterday ? x.suspectedCount - yesterday.suspectedCount : 0;
+        x.confirmedIncr = yesterday ? x.confirmedCount - yesterday.confirmedCount : 0;
+        x.curedIncr = yesterday ? x.curedCount - yesterday.curedCount : 0;
+        x.deadIncr = yesterday ? x.deadCount - yesterday.deadCount : 0;
+        return x;
+      }))
       .then(setData);
   }, [province]);
-
-
 
   const getOption = () => {
     return {
@@ -86,7 +92,27 @@ const Trending = ({ province }) => {
           name: '死亡人数',
           type: 'line',
           data: data.map(x => x.deadCount)
-        }
+        },
+        {
+          name: '新增疑似',
+          type: 'line',
+          data: data.map(x => x.suspectedIncr)
+        },
+        {
+          name: '新增确诊',
+          type: 'line',
+          data: data.map(x => x.confirmedIncr)
+        },
+        {
+          name: '新增治愈',
+          type: 'line',
+          data: data.map(x => x.curedIncr)
+        },
+        {
+          name: '新增死亡',
+          type: 'line',
+          data: data.map(x => x.deadIncr)
+        },
       ]
     };
   };
