@@ -5,22 +5,42 @@
     flex: 1;
     list-style: none;
     text-align: center;
+    i {
+      font-size: 12px;
+      font-style: normal;
+      &::before {
+        color: #999;
+        content: '较昨日';
+      }
+    }
     em {
       display: block;
       text-align: center;
       font-size: 22px;
+      font-style: normal;
     }
-    &:nth-child(1) em {
-      color: #E25D4F;
+    span {
+      font-size: 14px;
     }
-    &:nth-child(2) em {
-      color: #F99817;
+    &:nth-child(1) {
+      em, i {
+        color: #E25D4F;
+      }
     }
-    &:nth-child(3) em {
-      color: #77B634;
+    &:nth-child(2) {
+      em, i {
+        color: #F99817;
+      }
     }
-    &:nth-child(4) em {
-      color: #8D8FAA;
+    &:nth-child(3) {
+      em, i {
+        color: #77B634;
+      }
+    }
+    &:nth-child(4) {
+      em, i {
+        color: #8D8FAA;
+      }
     }
   }
 }

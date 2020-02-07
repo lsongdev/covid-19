@@ -29,23 +29,35 @@ header {
     list-style: none;
     text-align: center;
   }
+  .overview li i {
+      font-size: 12px;
+      font-style: normal
+    }
+  .overview li i::before {
+        color: #999;
+        content: '较昨日';
+      }
   .overview li em {
       display: block;
       text-align: center;
       font-size: 22px;
+      font-style: normal;
     }
-  .overview li:nth-child(1) em {
-      color: #E25D4F;
+  .overview li span {
+      font-size: 14px;
     }
-  .overview li:nth-child(2) em {
-      color: #F99817;
-    }
-  .overview li:nth-child(3) em {
-      color: #77B634;
-    }
-  .overview li:nth-child(4) em {
-      color: #8D8FAA;
-    }
+  .overview li:nth-child(1) em, .overview li:nth-child(1) i {
+        color: #E25D4F;
+      }
+  .overview li:nth-child(2) em, .overview li:nth-child(2) i {
+        color: #F99817;
+      }
+  .overview li:nth-child(3) em, .overview li:nth-child(3) i {
+        color: #77B634;
+      }
+  .overview li:nth-child(4) em, .overview li:nth-child(4) i {
+        color: #8D8FAA;
+      }
 .area-detail {
   width: 100%;
   max-width: 100vw;
